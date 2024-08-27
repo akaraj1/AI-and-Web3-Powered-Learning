@@ -1,10 +1,8 @@
 # AI-and-Web3-Powered-Learning
-Sure, here’s a sample README file that covers the requested sections:
 
----
+
 ![image](https://github.com/user-attachments/assets/2b64ee70-0a1b-4e68-937b-a9d70c646380)
 
-# Project Name
 
 ## Vision
 Our vision is to revolutionize E-Learning by leveraging the power of  blockchain and AI to create a more efficient, transparent, and secure ecosystem. We aim to provide users with seamless access to service that is both easy to use and highly functional.
