@@ -2,6 +2,7 @@
 Sure, here’s a sample README file that covers the requested sections:
 
 ---
+![image](https://github.com/user-attachments/assets/2b64ee70-0a1b-4e68-937b-a9d70c646380)
 
 # Project Name
 
