@@ -5,82 +5,95 @@
 
 
 ## Vision
-Our vision is to revolutionize E-Learning by leveraging the power of  blockchain and AI to create a more efficient, transparent, and secure ecosystem. We aim to provide users with seamless access to service that is both easy to use and highly functional.
 
-## Project Overview
-This project is designed to a . By implementing Remix, we address the issues of learning capability of each and every individual and offer solutions that are best suited
+The EduToken platform leverages the power of AI and Web3 technologies to revolutionize personalized learning. Our vision is to create a decentralized educational ecosystem where students are rewarded for their achievements and where credentials are securely stored and easily verifiable on the blockchain. By integrating AI, we aim to offer personalized learning paths tailored to each student’s unique needs, making education more accessible, efficient, and rewarding.
 
 ## Flowchart
-Below is a simplified flowchart of the project architecture:
 
+```plaintext
++---------------------------+
+|       Registration         |
++---------------------------+
+            |
+            v
++---------------------------+
+|    Student Registration    |
+| (Register a new student)   |
++---------------------------+
+            |
+            v
++---------------------------+
+|    Issue Credential        |
+| (Add new credentials to    |
+|  student profile)          |
++---------------------------+
+            |
+            v
++---------------------------+
+|      Reward Tokens         |
+|  (Reward tokens for        |
+|   achievements)            |
++---------------------------+
+            |
+            v
++---------------------------+
+|  Check Credentials/Rewards |
+| (View student's credentials|
+|  and token balance)        |
++---------------------------+
 ```
-User Interface
-      |
-    Input
-      |
-    Process
-      |
-   Blockchain
-      |
-    Output
-      |
-  User Feedback
-```
-*Note: This is a high-level flowchart. Detailed architecture is available in the `docs/architecture.md` file.*
 
 ## Smart Contract Details
 
-- **Contract Address:** 0xd6157a8186d6cd6c62f8ab2758da2a0da73902f7
-![image](https://github.com/user-attachments/assets/7bd61076-fccd-4532-b2eb-c7f137c8eadc)
+- **Token Name:** EduToken
+- **Symbol:** EDU
+- **Decimals:** 18
+- **Total Supply:** 1,000,000 EDU
 
+### Contract Functions
 
-## Installation
+1. **Register Student:**  
+   Register a new student on the platform.
+   
+2. **Issue Credential:**  
+   Issue a credential to a registered student.
 
-To run this project locally, follow these steps:
+3. **Reward Tokens:**  
+   Reward students with EDU tokens based on their achievements.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/username/repository.git
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Deploy the smart contract:
-   ```bash
-   truffle migrate --network [network_name]
-   ```
-4. Start the local server:
-   ```bash
-   npm start
-   ```
+4. **Check Credentials:**  
+   View the credentials issued to a student.
 
-## Usage
+5. **Check Reward Balance:**  
+   View the reward balance of a student in EDU tokens.
 
-To interact with the application, navigate to `[http://localhost:3000]` after starting the server. The interface allows you to [briefly describe how to use the application].
+## Contract Address
+
+The smart contract is deployed on the Ethereum network at:
+
+**0xe54483f1b746e95467cbc19b9541605ebe3320a7**
+
+Please replace `[Your Contract Address Here]` with the actual Ethereum contract address once deployed.
 
 ## Future Scope
 
-- **Scalability Improvements:** Implementing Layer 2 solutions to handle increased traffic.
-- **Multi-Chain Support:** Expanding the platform to operate across multiple blockchain networks.
-- **Enhanced Security:** Integrating advanced cryptographic techniques to further secure user data.
-- **Feature Expansion:** Adding additional features like [e.g., staking, lending, etc.] to enhance user experience.
+- **AI-Powered Personalization:**  
+  Integration with AI algorithms to tailor learning paths based on each student’s performance, preferences, and needs.
 
-## Contributions
+- **Decentralized Credential Verification:**  
+  Expand the platform to allow third parties (e.g., employers, educational institutions) to verify student credentials directly on the blockchain.
 
-We welcome contributions from the community. Please read our [CONTRIBUTING.md](link to file) for more details.
+- **Community-Driven Content:**  
+  Allow educators and content creators to contribute to the platform and earn rewards in EDU tokens, fostering a collaborative and enriching educational environment.
 
-## Contact Details
+- **Cross-Platform Integration:**  
+  Enable integration with other educational platforms and blockchain networks to create a seamless learning experience across different ecosystems.
 
-For any inquiries or support, feel free to reach out:
+## Contact
 
-- **Email:** [akazadraj3@gmail.com]
-  
+For any inquiries, suggestions, or collaborations, please reach out to:
 
-## License
+- **Name:** Abul Kalam Azad
+- **Email:** akazadraj3@gmail.com
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
----
-
-Feel free to customize this template further to suit your project's specifics!
+Let's collaborate to build a future where education is more accessible, efficient, and rewarding for all!
