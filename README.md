@@ -73,7 +73,6 @@ The smart contract is deployed on the Ethereum network at:
 
 **0xe54483f1b746e95467cbc19b9541605ebe3320a7**
 
-Please replace `[Your Contract Address Here]` with the actual Ethereum contract address once deployed.
 
 ## Future Scope
 
